@@ -56,9 +56,9 @@ A **Voice Assistant** Android app that answers questions by searching the web, d
 
 ## Screenshots
 
-![Screenshot](images/assis5.png)
-
 ![Screenshot](images/assis6.png)
+
+![Screenshot](images/assis5.png)
 
 ![Screenshot](images/assis1.png)
 
