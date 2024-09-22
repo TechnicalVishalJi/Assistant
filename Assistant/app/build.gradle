@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.0"
+
+    defaultConfig {
+        applicationId "com.vishalsingh.assistant"
+        minSdkVersion 17
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+			shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+	api 'com.android.support:support-annotations:27.+'
+	api 'com.android.support:appcompat-v7:27.+'
+	implementation 'org.jsoup:jsoup:1.14.3'
+	implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.17'
+	implementation 'org.mariuszgromada.math:MathParser.org-mXparser:5.0.7'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
