@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="20dp"
+		android:elevation="10dp"
+		android:id="@+id/dictionaryBox"
+		android:background="@drawable/wiki_info">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="heading"
+			android:id="@+id/heading"
+			android:textSize="25sp"
+			android:textColor="#000000"
+			android:padding="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

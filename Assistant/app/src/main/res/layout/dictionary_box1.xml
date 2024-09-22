@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="type"
+		android:id="@+id/type"
+		android:textSize="17sp"
+		android:textColor="#000000"
+		android:paddingLeft="10dp"
+		android:paddingRight="10dp"
+		android:paddingBottom="10dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:id="@+id/dictionary_box1"
+		android:orientation="vertical">
+
+	</LinearLayout>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="synonyms"
+		android:id="@+id/synonyms"
+		android:textSize="17sp"
+		android:textColor="@color/lightBlue"
+		android:padding="10dp"
+		android:textIsSelectable="true"
+		android:visibility="gone"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="antonyms"
+		android:id="@+id/antonyms"
+		android:textSize="17sp"
+		android:textColor="@color/lightBlue"
+		android:padding="10dp"
+		android:textIsSelectable="true"
+		android:visibility="gone"/>
+
+</LinearLayout>
+

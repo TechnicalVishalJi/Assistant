@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:background="@drawable/phase_bg"
+		android:padding="10dp"
+		android:gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:layout_marginRight="20dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginBottom="30dp"
+		android:elevation="15dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="3 Oct"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#D1D1D1"
+			android:id="@+id/phaseDate"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="3:00"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_marginTop="10dp"
+			android:id="@+id/moonRiseTime"
+			android:textColor="#FFFFFF"/>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="50dp"
+			android:layout_height="50dp"
+			android:background="@drawable/waning_crescent"
+			android:id="@+id/moonPhase"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Waning Gibbous"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:textColor="#FFFFFF"
+			android:id="@+id/PhaseName"
+			android:gravity="center"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="11:00"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:id="@+id/moonSetTime"
+			android:textColor="#FFFFFF"
+			android:layout_marginTop="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+
